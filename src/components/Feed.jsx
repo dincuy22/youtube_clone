@@ -16,6 +16,7 @@ function Feed() {
 
   return (
     <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
+      {/* Sidebar */}
       <Box
         sx={{
           height: { sx: "auto", md: "92vh" },
@@ -36,6 +37,7 @@ function Feed() {
         </Typography>
       </Box>
 
+      {/* Videos */}
       <Box p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2 }}>
         <Typography
           variant="h4"
